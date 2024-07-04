@@ -72,3 +72,15 @@ input{
         border-radius: 10px;
         border: solid 1px black;
     }
+
+
+@media(max-width: 1275px){
+        #container{
+            width: 400px;
+        }
+        #billSplit, #totalTip, #totalAmount {
+            margin: 15px;
+            padding: 8px;
+        }
+        
+    }
